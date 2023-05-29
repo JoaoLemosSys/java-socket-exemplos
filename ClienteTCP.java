@@ -8,7 +8,7 @@ public class ClienteTCP {
         
         try (Socket socketCliente = new Socket("127.0.0.1", porta)) {
             
-            System.out.println("Conexao com servidor estabelecida em  " + porta);
+            System.out.println("Conexão com servidor estabelecida em  " + porta);
                         
             InputStreamReader streamEntrada = new InputStreamReader(socketCliente.getInputStream());
         
